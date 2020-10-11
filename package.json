@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "save": "git add . && git commit -m '🔹' && git push -u origin main"
+    "save": "git add . && git commit -m '✨' && git push -u origin main"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Nases/graphql-kata/issues"
   },
-  "homepage": "https://github.com/Nases/graphql-kata#readme"
+  "homepage": "https://github.com/Nases/graphql-kata#readme",
+  "dependencies": {
+    "graphql": "^15.3.0"
+  }
 }
