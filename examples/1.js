@@ -9,5 +9,5 @@ var schema = buildSchema(`
 var root = { hello: () => 'Hello World!' }
 
 graphql(schema, '{hello}', root).then((response => {
-  console.log(response.data)
+  console.log(response.data.hello)
 }))
